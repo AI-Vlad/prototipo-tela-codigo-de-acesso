@@ -1184,6 +1184,10 @@ Responsive Utils
       flex-direction: column !important;
       padding: 5px !important;
     } 
+
+    .responsive-footer{
+      position: relative !important;
+    }
   }
 
 @media (max-width: 320px) {
