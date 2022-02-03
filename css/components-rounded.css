@@ -1179,11 +1179,22 @@ Responsive Utils
 
 @media (max-width: 480px) {
   .hidden-480 {
-    display: none; } }
+    display: none; } 
+    .responsive-buttons{
+      flex-direction: column !important;
+      padding: 5px !important;
+    } 
+  }
 
 @media (max-width: 320px) {
   .hidden-320 {
-    display: none; } }
+    display: none; } 
+  
+  .responsive-buttons{
+    flex-direction: column !important;
+    padding: 10px;
+  }  
+  }
 
 /***
 Demo Utils
